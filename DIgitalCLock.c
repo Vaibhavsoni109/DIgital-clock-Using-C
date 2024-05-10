@@ -15,13 +15,9 @@ int main()
 	scanf("%d",&s);
 	while(1)
 	{
-			system("clear");
-			
+			system("clear");	
 		printf("%.2d:%.2d:%.2d\n ",h,m,s);
-		
 			s++;
-				
-
 		sleep(1);
 		if(s>59)
 		{
@@ -37,8 +33,5 @@ int main()
 		{
 			h=00;
 		}
-	
-	
-		
 	}
 }
