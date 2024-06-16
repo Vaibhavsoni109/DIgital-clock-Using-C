@@ -7,6 +7,7 @@ int main()
 {
 	
 	int h,m,s;
+	//h-hour, m-minut, s- second
 	printf("enter the hour");
 	scanf("%d",&h);
 	printf("enter the minut");
